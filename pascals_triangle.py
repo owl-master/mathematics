@@ -11,6 +11,7 @@ class pascTriangle():
                     j+=1
         else:
             print('Quantity of rows must be natural and >0')
+            raise ValueError
     def get_binominal(self,n,k):
         return self.rows[n-1][k-1]
     def print_triangle(self):
